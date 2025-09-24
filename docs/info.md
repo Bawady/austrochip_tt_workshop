@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Hooks up the clock to some LFSR that drives some outputs, other outputs show the MUTEX grants and the C gate output.
 
 ## How to test
 
-Explain how to use your project
+Check if MUTEX grants are mutually exclusive, if C gate behaves like a C gate and if the other outputs show a 4 bit PRNG sequence.
 
 ## External hardware
 
